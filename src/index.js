@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// eslint-disable-next-line import/extensions
+import App from './components/App.jsx';
 
-const Index = () => <div>Hello React!</div>;
-
-ReactDOM.render(<Index />, document.getElementById('index'));
+// eslint-disable-next-line react/jsx-filename-extension
+ReactDOM.render(<App />, document.getElementById('index'));
